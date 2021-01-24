@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 
-namespace AdvancedC_Chapter1.Properties
+namespace Money_Money_Money.Properties
 {
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]

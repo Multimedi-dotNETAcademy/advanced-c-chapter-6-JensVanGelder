@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometric Figures", "Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmark Manager(extra)", "Bookmark Manager (extra)\Bookmark Manager(extra).csproj", "{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dierentuin", "Dierentuin\Dierentuin.csproj", "{D11B53CE-15DF-4775-A949-DE1C56FFC601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0522FBF9-7B38-43A7-8366-3EDFF26C8FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11B53CE-15DF-4775-A949-DE1C56FFC601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11B53CE-15DF-4775-A949-DE1C56FFC601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11B53CE-15DF-4775-A949-DE1C56FFC601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11B53CE-15DF-4775-A949-DE1C56FFC601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

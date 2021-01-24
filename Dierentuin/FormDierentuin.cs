@@ -116,15 +116,14 @@ namespace Dierentuin
                     gewichtPing += dier.GewichtInKG;
                 }
             }
-            UpdateGewicht(gewichtUil, "Uil", lblUilen);
-            UpdateGewicht(gewichtAap, "Aap", lblApen);
-            UpdateGewicht(gewichtPing, "Pinguïn", lblPins);
-            UpdateGewicht(gewichtTijg, "Tijger", lblTijgers);
+            lblUilen.Text = $"{CalcAverageWeightOfSubAnimal(gewichtUil, "Uil")}KG";
+            lblApen.Text = $"{CalcAverageWeightOfSubAnimal(gewichtAap, "Aap")}KG";
+            lblPins.Text = $"{CalcAverageWeightOfSubAnimal(gewichtPing, "Pinguïn")}KG";
+            lblTijgers.Text = $"{CalcAverageWeightOfSubAnimal(gewichtTijg, "Tijger")}KG";
         }
-        public void UpdateGewicht(double gewicht, string dier,Label lbl)
+        public double CalcAverageWeightOfSubAnimal(double gewicht, string dier)
         {
-            gewicht = Math.Round(gewicht / dierentuin.Count(d => d.GetType().Name == dier), 2);
-            lbl.Text = $"{gewicht}KG";
+            return gewicht = Math.Round(gewicht / dierentuin.Count(d => d.GetType().Name == dier), 2);
         }
     }
 }
